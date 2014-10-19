@@ -1,0 +1,189 @@
+#rulogo{
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	margin-bottom: 100px;
+}
+#tagplaylogo{
+	width: 30%;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	margin-top: 50px;
+}
+#slide1text{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.centerslide{
+	text-align: center;
+}
+.own{
+	font-size: 80px;
+
+    -webkit-transform: translateZ(20px);
+    -moz-transform:    translateZ(20px);
+    -ms-transform:     translateZ(20px);
+    -o-transform:      translateZ(20px);
+    transform:         translateZ(20px);
+}
+.workli{
+	padding-bottom: 15px;
+	font-size: 20px;
+
+}
+#ing {
+    padding-right: 200px;
+}
+#ing ul li {
+    width: 800px;
+}
+#ing2{
+	    width: 700px;
+    padding-bottom: 300px;
+    /* Yoda Icon :: Pixel Art from Star Wars http://www.pixeljoint.com/pixelart/1423.htm */
+    background-image: url(img/demo.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+#ing2 p{
+    font-size: 40px;
+}
+#imagination2{
+	    width: 700px;
+    padding-bottom: 400px;
+    /* Yoda Icon :: Pixel Art from Star Wars http://www.pixeljoint.com/pixelart/1423.htm */
+    background-image: url(img/dual.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+dt{
+	font-size: 75px;
+	padding-bottom: 15px;
+}
+dd{
+	font-size: 35px;
+}
+@-webkit-keyframes rotate-h1 {
+        0%   { -webkit-transform: perspective(1000px) rotateY(-30deg); }
+        100% { -webkit-transform: perspective(1000px) rotateY(30deg); }
+}
+#one-more-thing h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1em;
+    line-height: 1;
+
+    -webkit-transform-style: preserve-3d;
+    -webkit-animation: rotate-h1 2s infinite alternate ease-in-out;
+
+    -webkit-transform: perspective(1000px) rotateY(0deg);
+
+    -webkit-transition: all 2s ease-in-out;
+}
+.middle{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+#burndown{
+    width: 1000px;
+}
+#burndownImg{
+    width: 100%;
+}
+#hourImg{
+    width: 50%;
+}
+#summary{
+    width: 1000px;
+}
+#summaryImg{
+    width: 100%;
+}
+#time{
+    width: 1500px;
+}
+#section1{
+    height: 700px;
+    width: 1000px;
+    background-image: url(img/Selection_001.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#section2{
+    height: 700px;
+    width: 1000px;
+    background-image: url(img/Selection_002.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+#section3{
+    height: 700px;
+    width: 1000px;
+    background-image: url(img/Selection_003.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#section4{
+    height: 700px;
+    width: 1000px;
+    background-image: url(img/Selection_004.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+#over{
+    height: 1000px;
+    width: 1000px;
+    background-image: url(img/TMNT.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#tiny2 ul li .waffle{
+    position: relative;
+    bottom: 60px;
+}
+#tiny2 ul li .excel{
+    position: relative;
+    bottom: 20px;
+}
+#sprint1 h1{
+    font-size: 80px;
+}
+#sprint1 p{
+    font-size: 30px;
+}
+#sprint2 h1{
+    font-size: 80px;
+}
+#sprint2 p{
+    font-size: 30px;
+}
+#formula{
+    width: 700px;
+}
+#shareto{
+    width: 700px;
+}
+#scrum{
+    height: 700px;
+    width: 1000px;
+    background-image: url(img/wall.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#scrum2{
+    height: 700px;
+    width: 1000px;
+    background-image: url(img/fig1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
