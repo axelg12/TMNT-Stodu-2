@@ -153,16 +153,10 @@ dd{
     position: relative;
     bottom: 20px;
 }
-#sprint1 h1{
+.sprintsum h1{
     font-size: 80px;
 }
-#sprint1 p{
-    font-size: 30px;
-}
-#sprint2 h1{
-    font-size: 80px;
-}
-#sprint2 p{
+.sprintsum p{
     font-size: 30px;
 }
 #formula{
