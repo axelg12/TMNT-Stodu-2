@@ -150,44 +150,17 @@
 <div id="impress">
 
     <!--
-
-        Here is where interesting thing start to happen.
-
-        Each step of the presentation should be an element inside the `#impress` with a class name
-        of `step`. These step elements are positioned, rotated and scaled by impress.js, and
-        the 'camera' shows them on each step of the presentation.
-
-        Positioning information is passed through data attributes.
-
-        In the example below we only specify x and y position of the step element with `data-x="-1000"`
-        and `data-y="-1500` attributes. This means that **the center** of the element (yes, the center)
-        will be positioned in point x = -1000px and y = -1500px of the presentation 'canvas'.
-
-        It will not be rotated or scaled.
-
+        ################### new slide ###############################
     -->
-    <div  class="step slide" data-x="-10000" data-y="-1500">
+    <div class="step slide" data-x="-10000" data-y="-1500">
         <img src="css/img/rulogo.png" id="rulogo" alt="">
         <q id="slide1text">Hashtag games and voting systems for social media management</q>
-        <q>Stöðufundur 2</q>
     </div>
 
+
     <!--
-
-        The `id` attribute of the step element is used to identify it in the URL, but it's optional.
-        If it is not defined, it will get a default value of `step-N` where N is a number of slide.
-
-        So in the example below it'll be `step-2`.
-
-        The hash part of the url when this step is active will be `#/step-2`.
-
-        You can also use `#step-2` in a link, to point directly to this particular step.
-
-        Please note, that while `#/step-2` (with slash) would also work in a link it's not recommended.
-        Using classic `id`-based links like `#step-2` makes these links usable also in fallback mode.
-
+        ################### new slide ###############################
     -->
-
     <div class="step slide centerslide" data-x="-9000" data-y="-1500">
         <q style="padding-bottom: 50px;">The team</q>
         <h3 style="padding-bottom: 15px;">Arnar Þór Sveinsson</h3>
@@ -196,34 +169,50 @@
         <h3 style="padding-bottom: 15px;">Sólberg Bjarki Valdimarsson</h3>
     </div>
 
+
+    <!--
+        ################### new slide ###############################
+    -->
     <div class="step slide centerslide" data-x="-8000" data-y="-1500">
         <q>Developed for</q>
        <img src="css/img/tagplaylogo.png" id="tagplaylogo" alt="">
     </div>
 
+
     <!--
-
-        This is an example of step element being scaled.
-
-        Again, we use a `data-` attribute, this time it's `data-scale="4"`, so it means that this
-        element will be 4 times larger than the others.
-        From presentation and transitions point of view it means, that it will have to be scaled
-        down (4 times) to make it back to its correct size.
-
+        ################### new slide ###############################
     -->
     <div id="aboutProject" class="step centerslide" data-x="-8000" data-y="0" data-rotate="0" data-scale="2">
         <h1>Our project</h1>
         <p style="font-size: 30px;">We will implement a system that simplifies the process of creating social media games, polling and gathering data for companies, f.x.</p>
     </div>
+
+
+    <!--
+        ################### new slide ###############################
+    -->
     <div id="section1" class="step" data-y="0" data-x="-10000" data-scale="1">
-
     </div>
+
+
+    <!--
+        ################### new slide ###############################
+    -->
     <div id="section2" class="step" data-y="0" data-x="-12000" data-scale="1">
-
     </div>
+
+
+    <!--
+        ################### new slide ###############################
+    -->
     <div id="product" class="step centerslide" data-x="-12000" data-y="2000" data-rotate="90" data-scale="2.5">
         <p>Our project is to implement the following into the Tagplay system</p>
     </div>
+
+
+    <!--
+        ################### new slide ###############################
+    -->
     <div id="p" class="step centerslide" data-x="-10000" data-y="2000" data-rotate="90" data-scale="3">
         <dl>
             <dt>Automated sharing</dt>
@@ -231,6 +220,11 @@
             <q>Done</q>
         </dl>
     </div>
+
+
+    <!--
+        ################### new slide ###############################
+    -->
      <div id="p2" class="step centerslide" data-x="-8000" data-y="2000" data-rotate="90" data-scale="3">
         <dl>
             <dt>Sweepstakes or games</dt>
@@ -238,12 +232,24 @@
             <q>Done</q>
         </dl>
     </div>
+
+
+    <!--
+        ################### new slide ###############################
+
+    -->
      <div id="p3" class="step centerslide" data-x="-6000" data-y="2000" data-rotate="90" data-scale="3">
         <dl>
             <dt>Voting</dt>
             <dd>Ask a question on your website or on social media site and let the users answer. We will then collect the data and process it</dd>
         </dl>
     </div>
+
+
+    <!--
+        ################### new slide ###############################
+
+    -->
      <div id="p4" class="step centerslide" data-x="-4000" data-y="2000" data-rotate="90" data-scale="2">
         <dl>
             <dt>Datamining</dt>
@@ -251,13 +257,9 @@
         </dl>
     </div>
 
+
     <!--
-
-        And now it gets really exciting! We move into third dimension!
-
-        Along with `data-x` and `data-y`, you can define the position on third (Z) axis, with
-        `data-z`. In the example below we use `data-z="-3000"` meaning that element should be
-        positioned far away from us (by 3000px).
+        ################### sprint 1 ###############################
 
     -->
     <div id="sprint1sum" class="step centerslide sprintsum" data-x="-4000" data-z="-6000" data-y="2000" data-rotate="-90">              
@@ -272,52 +274,141 @@
             We learned alot from it and that should really help us in planning the rest of the project
         </p>
     </div>
+
+
+    <!--
+        ################### sprint 1 ###############################
+
+    -->
+    <div id="sprint1" class="step" data-x="-7000" data-y="11000" data-scale="2" data-rotate="90">
+        <q>Sprint 1 - Overview</q>
+        <img src="css/img/sprint1_over.png" alt="" class="middle" id="summaryImg">
+    </div>
+
+    <!--
+        ################### sprint 1 ###############################
+
+    -->
+    <div id="burndown1" class="step" data-x="-9000" data-y="14000" data-scale="4" data-rotate="90">
+        <q>Sprint 1</q>
+        <img src="css/img/sprint1_bd.png" alt="" class="middle" id="burndownImg">
+    </div>
+
+
+    <!--
+        ################### sprint 2 ###############################
+
+    -->
     <div id="sprint2sum" class="step centerslide sprintsum" data-x="-4000" data-z="-6000" data-y="3000" data-rotate="-90">              
         <h1>Sprint 2</h1>
         <p>
-            We finished 90% of the sprint
+            We finished about 90% of the sprint
         </p>
         <p>
             We learned alot from sprint 1 which make organzing splened
         </p>
+    </div>
+
+
+
+    <!--
+        ################### sprint 2 ###############################
+
+    -->
+    <div id="sprint2" class="step" data-x="-8000" data-y="11000" data-scale="2" data-rotate="90">
+    <q>Sprint 2 - Overview</q>
+        <img src="css/img/sprint2_over.png" alt="" class="middle" id="summaryImg">
+    </div>
+
+
+    <!--
+        ################### sprint 2 ###############################
+
+    -->
+    <div id="burndown2" class="step" data-x="-11000" data-y="14000" data-scale="4" data-rotate="90">
+        <q>Sprint 2</q>
+        <img src="css/img/sprint2_bd.png" alt="" class="middle" id="burndownImg">
+    </div>
+
+
+    <!--
+        ################### sprint 3 ###############################
+
+    -->
+    <div id="sprint3sum" class="step centerslide sprintsum" data-x="-4000" data-z="-6000" data-y="3000" data-rotate="-90"> 
         <h1>Sprint 3</h1>
         <p>
             Everything went according to plan
         </p>
         <p>
-            We finished x% of the sprint
+            We finished 85% of the sprint
         </p>
-    </div>   
+    </div>
+
+
+
+    <!--
+        ################### sprint 3 ###############################
+
+    -->
+    <div id="sprint3" class="step" data-x="-9000" data-y="11000" data-scale="2" data-rotate="90">
+    <q>Sprint 3 - Overview</q>
+        <img src="css/img/sprint3_over.png" alt="" class="middle" id="summaryImg">
+    </div>
+
+
+    <!--
+        ################### sprint 3 ###############################
+
+    -->
+    <div id="burndown3" class="step" data-x="-13000" data-y="14000" data-scale="4" data-rotate="90">
+        <q>Sprint 3</q>
+        <img src="css/img/sprint3_bd.png" alt="" class="middle" id="burndownImg">
+    </div>
+
+
+
+    <!--
+        ################### overview 0-1 ###############################
+
+    -->
     <div id="sprint01" class="step" data-x="-5000" data-y="11000" data-scale="4" data-rotate="90">
-        <img src="css/img/hours.png" alt="" class="middle" id="hourImg">
+        <img src="css/img/sprint1.png" alt="" class="middle" id="hourImg">
     </div>
+
+
+    <!--
+        ################### overview 2-3 ###############################
+
+    -->
     <div id="sprint12" class="step" data-x="-5000" data-y="13000" data-scale="4" data-rotate="90">
-        <img src="css/img/sprettur2.PNG" alt="" class="middle" id="hourImg">
+        <img src="css/img/sprint2.png" alt="" class="middle" id="hourImg">
     </div>
+
+
+    <!--
+        ################### timesummary ###############################
+
+    -->
     <div id="timesummary" class="step" data-x="-7000" data-y="13000" data-scale="1" data-rotate="90">
+        <h1>Time summary</h1>
         <img src="css/img/timesummary.png" alt="" class="middle" id="summaryImg">
     </div>
-    <div id="sprint1" class="step" data-x="-7000" data-y="11000" data-scale="2" data-rotate="90">
-        <img src="css/img/summary.png" alt="" class="middle" id="summaryImg">
-    </div>
-    <div id="sprint2" class="step" data-x="-8000" data-y="11000" data-scale="2" data-rotate="90">
-        <img src="css/img/sprettur2over.png" alt="" class="middle" id="summaryImg">
-    </div>
-    <div id="sprint3" class="step" data-x="-9000" data-y="11000" data-scale="2" data-rotate="90">
-        <img src="css/img/sprint3over.png" alt="" class="middle" id="summaryImg">
-    </div>
-    <div id="burndown1" class="step" data-x="-9000" data-y="14000" data-scale="4" data-rotate="90">
-        <img src="css/img/burndown.png" alt="" class="middle" id="burndownImg">
-    </div>
-    <div id="burndown2" class="step" data-x="-11000" data-y="14000" data-scale="4" data-rotate="90">
-        <img src="css/img/sprint2burndown.png" alt="" class="middle" id="burndownImg">
-    </div>
-    <div id="burndown3" class="step" data-x="-13000" data-y="14000" data-scale="4" data-rotate="90">
-        <img src="css/img/sprint3burn.png" alt="" class="middle" id="burndownImg">
-    </div>
+
+
+    <!--
+        ################### new slide ###############################
+
+    -->
     <div id="summary2" class="step summary" data-x="-13000" data-y="16000" data-scale="1" data-rotate="0">
         <img src="css/img/summaryburndown.png" alt="" class="middle" id="summaryImg">
     </div>
+
+
+    <!--
+        ################### new slide ###############################
+
+    -->
     <div id="done" class="step centerslide sprintsum" data-x="-11000" data-y="16000" data-rotate="0">
         <h1>Finished</h1>
         <p>
@@ -328,43 +419,25 @@
         <p>Production and template</p>
         <p>Voting</p>
     </div>
+
+
+    <!--
+        ################### new slide ###############################
+
+    -->
     <div id="one-more-thing" class="step centerslide" data-x="-11000" data-rotate="0" data-y="16000" data-z="-15000" data-scale="1">
         <h1>
             <span>Questions<span><b>?</b></span></span>
         </h1>
     </div>
 
-    <!--
-
-        And the last one shows full power and flexibility of impress.js.
-
-        You can not only position element in 3D, but also rotate it around any axis.
-        So this one here will get rotated by -40 degrees (40 degrees anticlockwise) around X axis and
-        10 degrees (clockwise) around Y axis.
-
-        You can of course rotate it around Z axis with `data-rotate-z` - it has exactly the same effect
-        as `data-rotate` (these two are basically aliases).
-
-    -->
 
 
     <!--
-
-        So to make a summary of all the possible attributes used to position presentation steps, we have:
-
-        * `data-x`, `data-y`, `data-z` - they define the position of **the center** of step element on
-            the canvas in pixels; their default value is 0;
-        * `data-rotate-x`, `data-rotate-y`, 'data-rotate-z`, `data-rotate` - they define the rotation of
-            the element around given axis in degrees; their default value is 0; `data-rotate` and `data-rotate-z`
-            are exactly the same;
-        * `data-scale` - defines the scale of step element; default value is 1
-
-        These values are used by impress.js in CSS transformation functions, so for more information consult
-        CSS transfrom docs: https://developer.mozilla.org/en/CSS/transform
+        ################### new slide ###############################
 
     -->
     <div id="over" class="step" data-x="20000" data-y="1500" data-scale="1">
-
     </div>
 
 </div>
